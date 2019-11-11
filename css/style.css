@@ -6318,11 +6318,14 @@ line-height: 26px;
   text-transform: uppercase;
   transition: .5s ease;
   color: #FF9E00;
-  overflow: hidden;
+	border: 1px solid #fcdd00;
+	border-radius: 5px;
+	overflow: hidden;
 }
 .intro-block a:hover {
 	transition-delay: .6s;
-	color: #FF9E00;
+	/*color: #FF9E00;*/
+  color: #000;
   background: #FFCD00;
   box-shadow: 0 0 10px #FFCD00, 0 0 20px #FFCD00, 0 0 30px #FFCD00, 0 0 40px #FFCD00;
 }
